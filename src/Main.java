@@ -24,6 +24,13 @@ public class Main {
                 y = Integer.parseInt (sc.nextLine());
                 System.out.println ("The sum of X and Y is " + (x+y));
 
+            case 2:
+                System.out.println ("Give X value: ");
+                x = Integer.parseInt (sc.nextLine());
+                System.out.println ("Give Y value: ");
+                y = Integer.parseInt (sc.nextLine());
+                System.out.println ("The substraction of X and Y is " + (x-y));
+
         }
 
 
