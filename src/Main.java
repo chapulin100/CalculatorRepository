@@ -30,6 +30,13 @@ public class Main {
                 System.out.println ("Give Y value: ");
                 y = Integer.parseInt (sc.nextLine());
                 System.out.println ("The substraction of X and Y is " + (x-y));
+
+            case 3:
+                System.out.println ("Give X value: ");
+                x = Integer.parseInt (sc.nextLine());
+                System.out.println ("Give Y value: ");
+                y = Integer.parseInt (sc.nextLine());
+                System.out.println ("The multiplication of X and Y is " + (Math.multiplyExact(x,y)));
         }
 
 
